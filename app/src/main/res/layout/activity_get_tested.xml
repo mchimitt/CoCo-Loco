@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".GetTested">
+
+    <TextView
+        android:id="@+id/get_tested_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="YOU NEED TO GET TESTED."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/get_tested_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/get_tested_title"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="THE RESULTS HAVE SHOWN THAT YOU COULD BE CARRYING COVID-19.\n\nMAKE SURE TO STAY IN QUARANTINE, MAINTAIN SOCIAL DISTANCING, AND WEAR A MASK.\n\nBELOW IS A LINK TO THE NEAREST TESTING CENTER:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_tested_title">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/get_info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/get_tested_subtitle"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:onClick="launchTestingCenterActivity"
+        android:text="@string/testing_center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_tested_subtitle" />
+
+    <TextView
+        android:id="@+id/isolate_until"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_info_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

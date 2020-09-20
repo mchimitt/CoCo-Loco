@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProtocolsStaySafe"
+    android:background="@drawable/gradient_blue">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/protocol_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="HOW TO STAY SAFE (CDC)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/protocol_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/protocol_title"
+                android:gravity="center_horizontal"
+                android:text="\nWEAR A MASK: PLEASE WEAR A MASK AND MAKE SURE IT COVERS BOTH YOUR MOUTH AND NOSE. THIS WILL PROTECT YOU FROM CONTACTING OR SPREADING COVID-19.\n\nPRACTICE SOCIAL DISTANCING: STAY 6 FEET APART FROM OTHER PEOPLE, TRY TO AVOID POPULATED EVENTS AND PARTIES FOR YOUR OWN BENEFIT. IT IS NOT WORTH CONTACTING THE VIRUS.\n\nMINIMIZE GOING OUT:	EX: WHEN EATING RESTAURANT FOODS, TRY TO GET IT FOR TAKE OUT, AND AVOID DINING INSIDE THE BUILDING. AVOID TRAVELING, IF YOU MUST TRAVEL, MAKE SURE TO ISOLATE FOR 2 WEEKS AFTER YOUR ARRIVAL BACK HOME.\n\n "
+                android:textColor="#FFFFFF"
+                android:textSize="22sp">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</android.widget.RelativeLayout>

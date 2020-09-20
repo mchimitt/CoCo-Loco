@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CovidHack</string>
+    <string name="testing_center">\nFind a Testing Center\n</string>
+    <string name="stay_safe">\nHow you can stay safe\n</string>
+    <string name="cdc_website">\nCDC Website\n</string>
+    <string name="take_quiz">\nCheck your symptoms with this quiz\n</string>
+    <string name="checkBox11">Diarrhea</string>
+    <string name="checkBox10">Nausea or Vomiting</string>
+    <string name="checkBox9">Congestion or Runny Nose</string>
+    <string name="checkBox8">Sore Throat</string>
+    <string name="checkBox7">New Loss of Taste or Smell</string>
+    <string name="checkBox6">Headache</string>
+    <string name="checkBox5">Muscle or Body Aches</string>
+    <string name="checkBox4">Fatigue</string>
+    <string name="checkBox3">Shortness of Breath or Difficult Breathing</string>
+    <string name="checkBox2">Cough</string>
+    <string name="checkBox1">Fever or Chills</string>
+    <string name="you_are_safe_message">Based upon you\'re results, you have no symptoms of Covid-19, and you have not made contact with anyone who previously had the virus.\n \nAlthough you do not have the virus, it is important to take the necessary precautions to avoid getting yourself sick, or others sick.\nFor information regarding how you can stay safe during this pandemic, click the button below.\n</string>
+    <string name="safe_title">You are safe</string>\
+    <string name="links">\nMASKS: https://tinyurl.com/vhxv9sa\n\n\nGLOVES: https://tinyurl.com/y2mjvb4n\n\n\nHAND SANITIZER: https://tinyurl.com/yxl7lr4x\n\n\nGEAR SUPPLY GUIDE: https://tinyurl.com/rvduytr\n\n\n</string>
+    <string name="when_sick">\nIf you become sick with Covid-19:\n\nGet rest and stay hydrated.\n\nTake over-the-counter medicines, such as acetaminophen, to help you feel better.\n\nCall before you get medical care. Be sure to get care if you have trouble breathing, or have any other emergency warning signs, or if you think it is an emergency.\n\nAs much as possible, stay in a specific room and away from other people and pets in your home. If possible, you should use a separate bathroom.\n\nIf you need to be around other people or animals in or outside of the home, wear a mask, and be sure to wear it properly on your face.</string>
+    <string name="faq">\nQ: How long should I self-quarantine if I\'ve been exposed to COVID-19?\n\n
+        A: The amount of time that you will be on self-quarantine is 14 days from the last day of exposure to COVID-19. Public health workers and your health care provider will be talking with you to make sure that you have the testing or approval necessary to be released from self-quarantine.\n
+    \nQ: Do I still need to quarantine for 14 days if I was around someone who has COVID-19?\n\n
+        A: Yes. You should still self-quarantine for 14 days since your last exposure. It can take up to 14 days after exposure to the virus for a person to develop COVID-19 symptoms. A negative result before end of the 14-day quarantine period does not rule out possible infection. By self-quarantining for 14 days, you lower the chance of possibly exposing others to COVID-19.\n
+    \nQ: Does wearing a mask actually help?\n\n
+        A: CDC recommends that everyone wear a mask over their nose and mouth when in public, including during travel. Masks slow the spread of COVID-19 because they help keep people who are infected from spreading respiratory droplets to others when they cough, sneeze, or talk. Medical masks and N-95 respirators are for healthcare workers and other first responders, as recommended by current CDC guidance.\n
+    \nQ: How does the virus spread?\n\n
+        A: The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs, sneezes, or talks. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet). COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.\n
+    \nQ: Can the coronavirus disease spread through food?\n\n
+        A: The coronavirus is mostly spread from one person to another through respiratory droplets. However, it\'s always critical to follow the 4 key steps of food safety—clean, separate, cook, and chill—to prevent foodborne illness. As an extra precaution to help avoid the transmission of COVID-19 through surface contact, we recommend frequent washing and sanitizing of all food contact surfaces and utensils.\n\n\n</string>
+    <string name="title_activity_things_to_do">ThingsToDo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

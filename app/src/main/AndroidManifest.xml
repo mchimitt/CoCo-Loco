@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cocoloco">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Covidology"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ThingsToBake"
+            android:label="Things to Bake"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+
+        <activity android:name=".ThingsAtHome"
+            android:label="Things to do at Home"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+
+        <activity android:name=".ThingsToDo"
+            android:label="Things to do"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".FAQ"
+            android:label="Frequently Asked Questions"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WhenSick"
+            android:label="What to do when you are sick"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CovidEssentials"
+            android:label="Covid Essentials"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Safe"
+            android:label="Quiz"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TestingCenter"
+            android:label="Go to a Testing Center"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Isolate"
+            android:label="Quiz"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GetTested"
+            android:label="Quiz"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Quiz"
+            android:label="Quiz"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ProtocolsStaySafe"
+            android:label="Protocols to Stay Safe"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cocoloco.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

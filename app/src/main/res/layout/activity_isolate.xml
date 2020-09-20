@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_yellow"
+    android:orientation="vertical"
+    tools:context=".Isolate">
+
+    <TextView
+        android:id="@+id/isolate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="YOU NEED TO ISOLATE."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/isolate_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="RESULTS HAVE SHOWN THAT YOU COULD BE EXPERIENCING MILD COVID-19 SYMPTOMS.\n\nMAKE SURE TO STAY HOME AS MUCH AS POSSIBLE.\n\nIF YOU MUST GO OUTSIDE, PLEASE WEAR A MASK TO PROTECT YOURSELF AND THE OTHERS AROUND YOU.\n\nWE RECOMMEND THAT YOU GET TESTED FOR YOUR OWN SAFETY. HERE IS A LINK TO FIND THE NEAREST TESTING CENTER:"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isolate_title">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/isolate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/isolate_subtitle"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:onClick="launchTestingCenterActivity"
+        android:text="@string/testing_center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isolate_subtitle" />
+
+    <TextView
+        android:id="@+id/isolate_until2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isolate_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

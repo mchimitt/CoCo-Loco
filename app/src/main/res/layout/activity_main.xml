@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADEFD1"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_horizontal"
+        android:text="\nWelcome to Covid Community Locations\nor CoCo Loco for short!\n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quiz_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:onClick="launchQuizActivity"
+        android:text="@string/take_quiz"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+    <Button
+        android:id="@+id/get_info_button"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/quiz_button"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:onClick="launchTestingCenterActivity"
+        android:text="@string/testing_center"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whatToDo_button" />
+
+    <Button
+        android:id="@+id/stay_safe_button"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/get_info_button"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:onClick="launchProtocolsActivity"
+        android:text="@string/stay_safe"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/when_sick_button" />
+
+    <Button
+        android:id="@+id/covid_essentials_button"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/stay_safe_button"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:onClick="launchEssentialsActivity"
+        android:text="\nCovid Essentials\n"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_info_button" />
+
+    <Button
+        android:id="@+id/when_sick_button"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/covid_essentials_button"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:onClick="launchWhenSick"
+        android:text="\nWhat to do if you are sick\n"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiz_button" />
+
+    <Button
+        android:id="@+id/faq"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/when_sick_button"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:onClick="launchFAQ"
+        android:text="\nFrequently Asked Questions\n"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/covid_essentials_button" />
+
+    <Button
+        android:id="@+id/whatToDo_button"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/faq"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:onClick="launchThings"
+        android:text="\nQuarantine Activities\n"
+        android:textColor="#00203F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stay_safe_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

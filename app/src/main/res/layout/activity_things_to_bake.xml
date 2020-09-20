@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADEFD1"
+    tools:context=".ThingsToBake">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADEFD1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bake_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="\nHere are some fun things to bake while in quarantine!"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Cookies:\n1. Soften butter. If you are planning on making these, take the butter out of the fridge first thing in the morning so it’s ready to go when you need it.\n2. Measure the flour correctly. Be sure to use a measuring cup made for dry ingredients (NOT a pyrex liquid measuring cup). There has been some controversy on how to measure flour. I personally use the scoop and shake method and always have (gasp)! It’s easier and I have never had that method fail me.  Many of you say that the only way to measure flour is to scoop it into the measuring cup and level with a knife. I say, measure it the way you always do. Just make sure that the dough matches the consistency of the dough in the photos in this post.\n3. Use LOTS of chocolate chips. Do I really need to explain this?!\n4. DO NOT over-bake these chocolate chip cookies! I explain this more below, but these chocolate chip cookies will not look done when you pull them out of the oven, and that is GOOD." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Brownies:\n1. Preheat oven to 350 degrees F (175 degrees C). Grease and flour an 8-inch square pan.\n2. In a large saucepan, melt 1/2 cup butter. Remove from heat, and stir in sugar, eggs, and 1 teaspoon vanilla. Beat in 1/3 cup cocoa, 1/2 cup flour, salt, and baking powder. Spread batter into prepared pan.\n3. Bake in preheated oven for 25 to 30 minutes. Do not overcook.\n4. To Make Frosting: Combine 3 tablespoons softened butter, 3 tablespoons cocoa, honey, 1 teaspoon vanilla extract, and 1 cup confectioners' sugar. Stir until smooth. Frost brownies while they are still warm." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.widget.RelativeLayout>

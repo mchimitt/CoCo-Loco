@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADEFD1"
+    tools:context=".ThingsAtHome">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="\nHere is a list of some fun things to do while in quarantine!"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Complete a puzzle: The more pieces the better! Feeling extra saucy? Take on a Rubik's Cube. More of a word person? Crossword puzzle!\n\nStart a journal or blog. Sure, it can be about the coronavirus, but it could also be about a specific interest from chess to cheese.\n\nDownload Duolingo, or a similar app, and teach yourself a foreign language.\n\nWrite actual letters to family and friends. After that? Write thank-you notes to service people who you remember went out of their way for you.\n\nWatch the films that won Oscars for best picture.\n\nTake time to reflect: What have you accomplished in the last year? What goals are you setting for yourself in the next year?\n\nGo on a health kick and learn how to cook new recipes with ingredients you may not be using already, from miso to tahini.\n\nWrite a play starring your loved ones. Perform it via a video call app. Sleep. Get lots of it.\n\n"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.widget.RelativeLayout>
